@@ -14,7 +14,6 @@ var initSample = function () {
 		}
 		return !!CKEDITOR.plugins.get('wysiwygarea');
 	}
-
 	var editorElement = CKEDITOR.document.getById('editor');
 	if (isBBCodeBuiltIn) {
 		editorElement.setHtml("");
